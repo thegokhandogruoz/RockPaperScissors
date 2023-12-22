@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.bodyGame {
+    background: #5CDB95;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.Baslık {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #EDF5E1
+}
+
+.buttons {
+    display: flex;
+    gap: 25px;
+}
+
+button {
+    height: 110px;
+    width: 110px;
+    font-size: 55px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 4px solid #05386B;
+    background: #379683;
+}
+
+.sonucBolumu{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #EDF5E1;
+}
